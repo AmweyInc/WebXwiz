@@ -9,17 +9,6 @@ This is an example project demonstrating user authentication, password change, t
 - Two-factor authentication with QR code generation
 - GraphQL API for registration, login, password change, and two-factor authentication
 
-## Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/express-graphql-auth.git
-cd express-graphql-auth
-npm install
-npm start
-```
-
 # Usage
 ## Authentication Routes
   **POST /auth/register:** Register a new user. Send a JSON object with **name**, **email**, and **password**.
